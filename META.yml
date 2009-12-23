@@ -1,0 +1,30 @@
+---
+abstract: 'Automatically add provides metadata by compiling your dist.'
+author:
+  - 'Tomas Doran (t0m) <bobtfish@bobtfish.net>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.88
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.910'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Module::Install::AutoProvidesFromCompilation
+name: Module-Install-AutoProvidesFromCompilation
+no_index:
+  directory:
+    - inc
+    - t
+provides:
+  Module::Install::AutoProvidesFromCompilation: lib/Module/Install/AutoProvidesFromCompilation.pm
+requires:
+  B::Compiling: 0
+  B::Hooks::Op::Check::StashChange: 0
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/bobtfish/Module-Install-AutoProvidesFromCompilation.git
+version: 0.01
